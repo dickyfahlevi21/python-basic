@@ -7,8 +7,7 @@ def combine_several_lists():
     second = ['is', 'a', 'woman']
     third = ['rolling', 'her', 'eyes']
     combine = first + second + third
-    separator = ' '
-    print(separator.join(combine))
+    print(' '.join(combine))
 # combine_several_lists()
 
 
@@ -40,7 +39,7 @@ def char_counter(text):
 
 
 # 4. Bubble Sort
-def bubbleSort(numbers): 
+def bubble_sort(numbers): 
     n = len(numbers) 
     for i in range(n-1): 
         for j in range(0, n-i-1): 
@@ -48,7 +47,7 @@ def bubbleSort(numbers):
                 numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
                 print("Step", j+1 , ":", numbers)
 numbers = [12,3,5,4,8,9]  
-# bubbleSort(numbers)
+# bubble_sort(numbers)
 
 
 
